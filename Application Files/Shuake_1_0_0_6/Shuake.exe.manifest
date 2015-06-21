@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Shuake.exe" version="1.0.0.6" publicKeyToken="b3bd568281d36258" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="bba6c398d468e8880041(已去底).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Shuake" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Shuake.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Shuake.exe" size="175616">
+      <assemblyIdentity name="Shuake" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Xb2nqgSkCTRToKUNrW3Tyqmnn4c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="bba6c398d468e8880041(已去底).ico" size="161862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ziVNnEauTdcI4pmzZFckqvAHbBU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Shuake.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>06MAsbgFUGlKhu1U3KJ4fh8CRLU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MYPC\Yu" issuerKeyHash="3afac85b50e2ff68d5f2baf4f29db316f3f21730" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>NvuyGKzofC3SCwxsyABk2b76pjc=</DigestValue></Reference></SignedInfo><SignatureValue>go3y+JFdKNveUfp5mEZm9PEa3GT0r/4SnG2WliXt/Vqau8SkpcR/Gf7+dZyH/NykCsTCj/woxZ6PcymxSkUVTSUpTwdscsRqbMUMeQWWjqAEVSf8/ZK0GUnL6va8zdVfy14LLQf2OaI/Tmi5IzWRCUyIAvBIHe5S0jxHD8ur114=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tnRaYMfjR3Skk5Yy5PIXPd6RDEnDYuH8HuzJRi/BBFE3KZO6DnGg3Cj3dM2J87/KPcNz0XIRbw9byWP/t+l7L5bukdx7pADfHkLtQvXxXq72ftjwSQfYqhqAJPQkd2sshuxS4P7S7Pd3Sh8EekWrVvvnpP9H6GZUL4j1P89KLIc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="37a6fabed96400c86c0c0bd22d7ce8ac18b2fb36" Description="" Url=""><as:assemblyIdentity name="Shuake.exe" version="1.0.0.6" publicKeyToken="b3bd568281d36258" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MYPC\Yu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>SneH4KkEpjzVwawyPwZVY0WGihM=</DigestValue></Reference></SignedInfo><SignatureValue>PPFc2zL3i4ShdLWUrjLxyaBRSSaTVEVr0r98Umsx07VJ7VTXPvjOAHoWeQuPu9Zjn0KYKevonGBGBFvfO6xpSF1m/jArXlf8FLa49CFHV17XxiS2WqM7HjT+5EGGh6dIrVoacoHLED2/MdVsDzJ5mYDFa59nsG1VXedht1gyyCk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tnRaYMfjR3Skk5Yy5PIXPd6RDEnDYuH8HuzJRi/BBFE3KZO6DnGg3Cj3dM2J87/KPcNz0XIRbw9byWP/t+l7L5bukdx7pADfHkLtQvXxXq72ftjwSQfYqhqAJPQkd2sshuxS4P7S7Pd3Sh8EekWrVvvnpP9H6GZUL4j1P89KLIc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBtTCCAR6gAwIBAgIQGTbvjNmo9ZFEUdIxrp1zKDANBgkqhkiG9w0BAQUFADAZMRcwFQYDVQQDHg4ATQBZAFAAQwBcAFkAdTAeFw0xNTA2MjEwNjIyNDZaFw0xNjA2MjAxMjIyNDZaMBkxFzAVBgNVBAMeDgBNAFkAUABDAFwAWQB1MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2dFpgx+NHdKSTljLk8hc93pEMScNi4fwe7MlGL8EEUTcpk7oOcaDcKPd0zYnzv8o9w3PRchFvD1vJY/+36Xsvlu6R3HukAN8eQu1C9fFervZ+2PBJB9iqGoAk9CR3ayyG7FLg/tLs93dKHwR6RatW++ek/0foZlQviPU/z0oshwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAGJV6+sbPKFrzZUaiWlt7u4z68QDldk8RQusvgoL1D0/vsqHzhUGBPsyBPD6LDLo+jTkXB7ABNfQFjjNxCY/6hGfMUieWTv4QJscff6o7GdGtIpcLmIMPHvzIzgomHQgJ45epSK9TTRe1Bo0UMOzN4iJtJbcBqUjBeDPu3i3sXWm</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
